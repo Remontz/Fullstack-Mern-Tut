@@ -1,6 +1,6 @@
 # User Stories for techNotes
 # User Stories are often formatted: "As a [person], I [need/want] to [do something] because [reason given] ==> which are then broken down into technical task.  
-
+We Need CRUD Operations for Notes and Users, with authentication
 
 1. -[x] Replace current sticky note system
 2. -[ ] Add a public facing page with basic contact info
