@@ -28,6 +28,7 @@ app.use(cookieParser())
 app.use(express.static('public')); // telling express where to find static files
 
 app.use('/', require('./routes/root'));
+app.use('/users', require('./routes/userRoutes'));
 
 app.all('*', (req, res) => {
     res.status(404)
